@@ -1,24 +1,13 @@
-# plane_knowledge_graph
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
+# 飞机智能知识图谱
+## 项目启动
 npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 项目介绍
+    在飞机设计领域，设计文档包含了大量复杂且关键的信息，这些信息对于飞机的研发、制造和维护都至关重要。然而，传统的文档处理方式难以高效地提取和利用这些信息，导致信息的分散和难以整合。为了更好地管理和利用飞机设计文档中的信息，我们开发了 AircraftDesignKG 项目，旨在构建一个飞机设计知识图谱，将飞机设计文档中的关键信息以结构化的方式存储和展示，从而提高信息的检索和利用效率。
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 代码解读
+这是飞机只能图谱的前端的代码，主要实现了动态渲染、文件上传以及文件解析的功能
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 部署链接
+https://guzhendekabula.github.io/plane_knowledge_graph/#/
+
