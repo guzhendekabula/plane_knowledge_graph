@@ -1,10 +1,10 @@
 const { defineConfig } = require('@vue/cli-service')
+
 module.exports = defineConfig({
   transpileDependencies: true,
-  base: "/plane_knowledge_graph/"
-})
-
-module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/plane_knowledge_graph/'
+    : '/',
   devServer: {
     proxy: {
       '/api': {
@@ -16,4 +16,4 @@ module.exports = {
       }
     }
   }
-}
+})
